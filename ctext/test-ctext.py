@@ -11,7 +11,7 @@ setlanguage("zh")
 setremap("gb")
 stats = getstats()
 
-#print ('ceshi 测试' + str(stats))
+print ('ceshi 测试' + str(stats))
 # Output: ceshi 测试{'serverlocation': {'description': '服务器所在地', 'value': 'KC'}, 'contribchapters': {'description': '维基区总数（单位）', 'value': '391880'}, 'directquotations': {'description': '直接相同引用', 'value': '3100'}, 'contribchars': {'description': '维基区总字数（汉字）', 'value': '5157143288'}, 'docrespages': {'description': '电子图书馆（页数）', 'value': '25425224'}, 'semanticchars': {'description': '语意链接总字数', 'value': '451466'}, 'paralleltotal': {'description': '相似段落（总数）', 'value': '480270'}, 'chartotal_posthan': {'description': '原典资料库：总字数（汉代之后）', 'value': '20385871'}, 'contribitems': {'description': '维基区总数（原典文献）', 'value': '30392'}, 'semanticcharsp': {'description': '语意链接总字数（%）', 'value': '7.9%'}, 'charfrequpdate': {'description': '汉字几率更新', 'value': None}, 'chartotal': {'description': '原典资料库：总字数（先秦两汉）', 'value': '5687042'}, 'statupdate': {'description': '统计更新', 'value': '2016-10-08 17:37:30'}, 'paragraphtotal': {'description': '总段落', 'value': '85559'}, 'unihan': {'description': 'Unihan数据库版本', 'value': '8.0.0'}, 'parallelgroups': {'description': '相似段落（组数）', 'value': '139634'}
 
 # test paragraph: from: http://digitalsinology.org/classical-chinese-dh-getting-started/
